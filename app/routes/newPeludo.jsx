@@ -1,11 +1,4 @@
-import {
-  Form,
-  Link,
-  redirect,
-  useParams,
-  useOutletContext,
-  useNavigate
-} from '@remix-run/react'
+import { redirect, useOutletContext, useNavigate } from '@remix-run/react'
 // import { validateCredentials } from '../data/validation.server'
 
 import PeludoForm from '../components/PeludoForm'

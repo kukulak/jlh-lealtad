@@ -9,19 +9,6 @@ const Seccion = ({
 
   user
 }) => {
-  const styleCuponVacio = {
-    // backgroundColor: '#1f2937',
-    backgroundColor: 'blue'
-  }
-
-  // const groupCategory = useRef()
-
-  // console.log([groupCategory.current], 'IS THIS AN ARRAY?')
-
-  // useEffect(() => {
-  //   ;[groupCategory.current][0].firstChild.disabled = false
-  // }, [])
-
   let firstClickableFound = false
 
   return (
@@ -29,12 +16,7 @@ const Seccion = ({
       {titulo && (
         <div className="flex gap-5 flex-col mb-20">
           <p className="ml-10 text-2xl">{titulo}</p>
-          <div
-            // ref={groupCategory}
-            className=" flex flex-wrap justify-center gap-5 "
-          >
-            {/* {visitsRemaining >= 1 && <Rewards promocion={'promo'} />} */}
-
+          <div className=" flex flex-wrap justify-center gap-5 ">
             {user.role !== 'ADMIN' &&
               promociones?.map((promo, index) => (
                 <>
