@@ -3,7 +3,8 @@ import { json } from '@remix-run/node'
 import { Form, useActionData } from '@remix-run/react'
 import { prisma } from '../data/database.server'
 
-import { generateToken, sendEmail } from '../data/email.server' // Ajusta el path según tu configuración
+import { sendEmail } from '../data/email.server' // Ajusta el path según tu configuración
+import { generateToken } from '../data/auth.server' // Ajusta el path según tu configuración
 
 export async function action({ request }) {
   const formData = await request.formData()
