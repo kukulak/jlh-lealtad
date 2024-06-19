@@ -1,17 +1,11 @@
-import Error from './components/util/Error'
-
 import {
   Link,
   Links,
-  LiveReload,
   Meta,
   Outlet,
   Scripts,
   ScrollRestoration,
-  useLoaderData,
-  useRouteError,
-  isRouteErrorResponse,
-  Form
+  useLoaderData
 } from '@remix-run/react'
 import type { LoaderFunctionArgs, LinksFunction } from '@remix-run/node'
 import MenuMobile from './components/MenuMobile'
@@ -19,7 +13,6 @@ import { getUserFromSession } from '../app/data/auth.server'
 
 import BurgerMenu from './components/BurgerMenu'
 
-// import styles from './tailwind.css'
 import styles from '~/tailwind.css?url'
 import { useEffect, useState } from 'react'
 

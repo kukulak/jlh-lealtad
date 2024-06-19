@@ -1,5 +1,4 @@
 import { Link } from '@remix-run/react'
-import React from 'react'
 
 const PeludoOnHuman = ({ nombre, peludoId, foto, onClick }) => {
   return (

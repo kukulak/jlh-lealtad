@@ -1,4 +1,3 @@
-import React, { useEffect, useRef, useState } from 'react'
 import Rewards from './Rewards'
 const Seccion = ({
   titulo,
@@ -7,7 +6,7 @@ const Seccion = ({
   descripcion,
   cuponId,
   visitsRemaining,
-  cuponVacio,
+
   user
 }) => {
   const styleCuponVacio = {

@@ -1,7 +1,6 @@
 import { gsap } from 'gsap/dist/gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import { useRef } from 'react'
-import { Link } from '@remix-run/react'
 
 import { useGSAP } from '@gsap/react'
 

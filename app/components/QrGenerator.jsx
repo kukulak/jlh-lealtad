@@ -1,5 +1,3 @@
-import { useState, useEffect } from 'react'
-
 const QrGenerator = ({ name, peludo }) => {
   // const [qrState, setQrState] = useState('')
 

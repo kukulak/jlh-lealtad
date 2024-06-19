@@ -9,8 +9,14 @@ export default defineConfig({
   build: {
     outDir: 'build/client',
     rollupOptions: {
+      // input: {
+      //   main: resolve(__dirname, 'index.html')
+      // },
       output: {
         // Define the chunks output
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash][extname]'
       }
     }
   },

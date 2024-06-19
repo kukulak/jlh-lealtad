@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import SimpleParallax from 'simple-parallax-js'
+
 const ImageFitFill = ({ alt, src }) => {
   // objectPosition: 'top'
   // objectPosition: 'center'

@@ -6,7 +6,6 @@ import {
   useMatches,
   useNavigation,
   useParams,
-  useLoaderData,
   useNavigate
 } from '@remix-run/react'
 
