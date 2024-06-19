@@ -72,7 +72,7 @@ export async function requireUserSession(request) {
   return userId
 }
 
-function generateToken() {
+export function generateToken() {
   return randomBytes(32).toString('hex')
 }
 
