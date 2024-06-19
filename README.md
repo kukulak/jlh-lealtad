@@ -1,6 +1,13 @@
 # Welcome to Lealtad
 
-Usar códigos Qr para acceder a la informacion el cliente
+Usar códigos Qr para acceder a la información del cliente
 
 Usuarios
-vales de promoción
+Varios perros por usuario
+Varios cupones por perro
+Cupones de promocion y oferta
+Puntos
+Fotos de los perros
+Carrusel de fotos
+Explorar por perro
+Buscar por perro y por humano
