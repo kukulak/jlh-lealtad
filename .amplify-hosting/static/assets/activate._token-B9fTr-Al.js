@@ -1,0 +1,1 @@
+import{j as t}from"./jsx-runtime-D2HyDbKh.js";import{u as o}from"./components-Cuo2WHyh.js";import"./index-zFQnOIg2.js";import"./index-CD45sefw.js";function u(){const r=o();return r.error?t.jsx("div",{children:r.error}):t.jsx("div",{children:"Activando tu cuenta..."})}export{u as default};

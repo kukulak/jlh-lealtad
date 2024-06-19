@@ -1,0 +1,1 @@
+import{r as e,j as a}from"./jsx-runtime-D2HyDbKh.js";import{u as s}from"./index-CD45sefw.js";function i(){const t=s();return e.useEffect(()=>{t("/")},[]),a.jsx("div",{className:" mt-32 w-6/12 h-6/12 text-center",children:"¡Tu cuenta ha sido activada con éxito!"})}export{i as default};

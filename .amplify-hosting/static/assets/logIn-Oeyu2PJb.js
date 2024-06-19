@@ -1,0 +1,1 @@
+import{j as t}from"./jsx-runtime-D2HyDbKh.js";import{A as r}from"./AuthForm-D3ayBKNm.js";import"./index-zFQnOIg2.js";import"./index-CD45sefw.js";import"./components-Cuo2WHyh.js";function p(){return t.jsx("div",{className:"mt-10  w-full items-center flex flex-col gap-5",children:t.jsx(r,{signUp:!0})})}export{p as default};
